@@ -1,0 +1,26 @@
+{
+  "name": "blogtech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrentLe/Blogtech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrentLe/Blogtech/issues"
+  },
+  "homepage": "https://github.com/TrentLe/Blogtech#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
