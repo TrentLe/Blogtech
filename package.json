@@ -1,10 +1,11 @@
 {
   "name": "blogtech",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,9 @@
   },
   "homepage": "https://github.com/TrentLe/Blogtech#readme",
   "dependencies": {
+    "connect-session-sequelize": "^7.1.5",
     "express": "^4.18.2",
-    "sequelize": "^6.28.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.34.0"
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3"
   }
 }

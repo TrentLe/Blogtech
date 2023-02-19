@@ -2,8 +2,8 @@ const express = require('express').Router();
 const path = require('path');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
-const helpers = require('../TechBLog/utils/helpers');
-const routes = require('../TechBLog/controllers');
+const helpers = require('./utils/helpers');
+const routes = require('./controllers');
 const fileUpload = require('express-fileupload');
 
 const sequelize = require('./config/connection');
